@@ -1570,6 +1570,7 @@ dependencies = [
     { name = "pygame" },
     { name = "seaborn" },
     { name = "tensorboard" },
+    { name = "tools" },
     { name = "torch" },
     { name = "torchaudio" },
     { name = "torchvision" },
@@ -1583,6 +1584,7 @@ requires-dist = [
     { name = "pygame", specifier = ">=2.6.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "tensorboard", specifier = ">=2.21.0" },
+    { name = "tools", specifier = ">=1.0.38" },
     { name = "torch", specifier = ">=2.14.1" },
     { name = "torchaudio", specifier = ">=2.11.0" },
     { name = "torchvision", specifier = ">=0.29.1" },
@@ -1746,6 +1748,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/7a/13/e503968fefabd4c6b2650af21e110aa8466fe21432cd7c43a84577a89438/tensorboard_data_server-0.7.2-py3-none-any.whl", hash = "sha256:7e0610d205889588983836ec05dc098e80f97b7e7bbff7e994ebb78f578d0ddb", size = 2356, upload-time = "2023-10-23T21:23:32.16Z" },
     { url = "https://files.pythonhosted.org/packages/b7/85/dabeaf902892922777492e1d253bb7e1264cadce3cea932f7ff599e53fea/tensorboard_data_server-0.7.2-py3-none-macosx_10_9_x86_64.whl", hash = "sha256:9fe5d24221b29625dbc7328b0436ca7fc1c23de4acf4d272f1180856e32f9f60", size = 4823598, upload-time = "2023-10-23T21:23:33.714Z" },
     { url = "https://files.pythonhosted.org/packages/73/c6/825dab04195756cf8ff2e12698f22513b3db2f64925bdd41671bfb33aaa5/tensorboard_data_server-0.7.2-py3-none-manylinux_2_31_x86_64.whl", hash = "sha256:ef687163c24185ae9754ed5650eb5bc4d84ff257aabdc33f0cc6f74d8ba54530", size = 6590363, upload-time = "2023-10-23T21:23:35.583Z" },
+]
+
+[[package]]
+name = "tools"
+version = "1.0.38"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/46/0b/df4e9a4c0cb4ad5e460d23e9a784fe3fbd6abd84a80ce40bc3aeaf1f784c/tools-1.0.38.tar.gz", hash = "sha256:a3ae7f1dd3dcf647d080bd985f69604bd79b07071fd9d9aa4d3208408f2a3a58", size = 38570, upload-time = "2026-10-06T20:55:06.938Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/39/b5/43bb2103c19518371a1bf19ac4a2b3218b699198c66092d4916219643e53/tools-1.0.38-py3-none-any.whl", hash = "sha256:c51e791ad6a3c9edb4c04dda39244714303cb90027bf7284e8b0d8e42695449b", size = 45537, upload-time = "2026-10-06T20:55:06.064Z" },
 ]
 
 [[package]]
